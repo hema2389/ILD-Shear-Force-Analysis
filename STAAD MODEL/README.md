@@ -12,13 +12,7 @@ staad/
 ├── Assignment_1.STD             # STAAD input file
 ├── Assignment_1.ANL             # STAAD analysis results
 ├── output/
-│   ├── analysis_output.txt      # Complete output file
-│   ├── ild_graph.png           # Final ILD graph
-│   └── shear_diagrams/         # Shear diagrams for each load case
-└── screenshots/
-    ├── model_geometry.png       # Node and member numbering
-    ├── support_conditions.png   # Support definitions
-    └── results_table.png        # Numerical results
+│   ├── Assignment_1_STAAD.pdf (report)       # Numerical results
 ```
 
 ---
