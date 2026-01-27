@@ -1,0 +1,135 @@
+                                                                 PAGE NO.    1
+
+
+
+             ****************************************************        
+             *                                                  *        
+             *           STAAD.Pro 2024/Academic                *        
+             *           Version  24.00.02.354                  *        
+             *           Proprietary Program of                 *        
+             *           Bentley Systems, Inc.                  *        
+             *           Date=    JAN 27, 2026                  *        
+             *           Time=    20: 7:53                      *        
+             *                                                  *        
+             *  Licensed to:                                    *        
+             ****************************************************        
+
+
+
+     1. STAAD SPACE
+INPUT FILE: D:\SSN\LMS\SEM 6\ADVANCED STRUCTURAL ANALYSIS\Assignment_1\Assignment_1.STD
+     2. START JOB INFORMATION
+     3. ENGINEER DATE 27-JAN-26
+     4. END JOB INFORMATION
+     5. INPUT WIDTH 79
+     6. UNIT METER KN
+     7. JOINT COORDINATES
+     8. 1 0 0 0; 2 1 0 0; 3 2 0 0; 4 3 0 0; 5 4 0 0; 6 5 0 0; 7 6 0 0; 8 7 0 0
+     9. 9 8 0 0
+    10. MEMBER INCIDENCES
+    11. 1 1 2; 2 2 3; 3 3 4; 4 4 5; 5 5 6; 6 6 7; 7 7 8; 8 8 9
+    12. DEFINE MATERIAL START
+    13. ISOTROPIC CONCRETE
+    14. E 2.17185E+07
+    15. POISSON 0.17
+    16. DENSITY 23.5616
+    17. ALPHA 1E-05
+    18. DAMP 0.05
+    19. G 9.28139E+06
+    20. TYPE CONCRETE
+    21. STRENGTH FCU 27579
+    22. END DEFINE MATERIAL
+    23. MEMBER PROPERTY
+    24. 1 TO 8 PRIS YD 0.3 ZD 0.2
+    25. CONSTANTS
+    26. MATERIAL CONCRETE ALL
+    27. SUPPORTS
+    28. 1 9 FIXED BUT FX MX MZ
+    29. 5 PINNED
+    30. LOAD 1 LOADTYPE NONE  TITLE LOAD CASE 1
+    31. JOINT LOAD
+    32. 1 FY -1.
+    33. LOAD 2 LOADTYPE NONE  TITLE LOAD CASE 2
+    34. JOINT LOAD
+    35. 2 FY -1.
+    36. LOAD 3 LOADTYPE NONE  TITLE LOAD CASE 3
+    37. JOINT LOAD
+    38. 3 FY -1.
+     STAAD SPACE                                              -- PAGE NO.    2
+        
+    39. LOAD 4 LOADTYPE NONE  TITLE LOAD CASE 4
+    40. JOINT LOAD
+    41. 4 FY -1.
+    42. LOAD 5 LOADTYPE NONE  TITLE LOAD CASE 5
+    43. JOINT LOAD
+    44. 5 FY -1.
+    45. LOAD 6 LOADTYPE NONE  TITLE LOAD CASE 6
+    46. JOINT LOAD
+    47. 6 FY -1.
+    48. LOAD 7 LOADTYPE NONE  TITLE LOAD CASE 7
+    49. JOINT LOAD
+    50. 7 FY -1.
+    51. LOAD 8 LOADTYPE NONE  TITLE LOAD CASE 8
+    52. JOINT LOAD
+    53. 8 FY -1.
+    54. LOAD 9 LOADTYPE NONE  TITLE LOAD CASE 9
+    55. JOINT LOAD
+    56. 9 FY -1.
+    57. PERFORM ANALYSIS
+
+
+
+            P R O B L E M   S T A T I S T I C S
+            -----------------------------------
+
+     NUMBER OF JOINTS          9  NUMBER OF MEMBERS       8
+     NUMBER OF PLATES          0  NUMBER OF SOLIDS        0
+     NUMBER OF SURFACES        0  NUMBER OF SUPPORTS      3
+
+           Using 64-bit analysis engine.
+ 
+           SOLVER USED IS THE IN-CORE ADVANCED MATH SOLVER
+ 
+   TOTAL      PRIMARY LOAD CASES =     9, TOTAL DEGREES OF FREEDOM =      45
+   TOTAL LOAD COMBINATION  CASES =     0  SO FAR.
+
+
+ ***WARNING -  INSTABILITY AT JOINT     5   DIRECTION = MX 
+  PROBABLE CAUSE SINGULAR-ADDING WEAK SPRING 
+  K-MATRIX DIAG=  7.7141307E+04 L-MATRIX DIAG= -2.8691892E-11 EQN NO      22
+  ***NOTE - VERY WEAK SPRING ADDED FOR STABILITY
+
+    **NOTE** STAAD DETECTS INSTABILITIES AS EXCESSIVE LOSS OF SIGNIFICANT DIGITS
+             DURING DECOMPOSITION. WHEN SIGNIFICANT DIGITS LOST IS GREATER THAN 9 
+             STAAD PRINTS A SINGULARITY NOTICE. 
+
+             THE ABOVE CONDITIONS COULD ALSO BE CAUSED BY VERY STIFF OR VERY WEAK 
+             ELEMENTS AS WELL AS TRUE SINGULARITIES.
+
+
+   *** WARNING: 
+   Pivoting Applied for Small or Zero Pivots. Solution Successfully Completed.
+
+
+
+    58. FINISH
+     STAAD SPACE                                              -- PAGE NO.    3
+        
+
+
+             *********** END OF THE STAAD.Pro RUN ***********         
+
+               **** DATE= JAN 27,2026   TIME= 20: 7:55 ****
+
+         ************************************************************
+         *   For technical assistance on STAAD.Pro, please visit    *
+         *   http://www.bentley.com/en/support/                     *
+         *                                                          *
+         *   Details about additional assistance from               *
+         *   Bentley and Partners can be found at program menu      *
+         *   Help->Technical Support                                *
+         *                                                          *
+         *           Copyright (c) Bentley Systems, Inc.            *
+         *                http://www.bentley.com                    *
+         ************************************************************
+                                                                     
