@@ -109,7 +109,8 @@ Browse to [`manual_solution/`](manual_solution/) to view:
 ├── manual_solution/     # Handwritten calculations
 ├── docs/                # Detailed documentation
 ├── comparison/          # Method comparison and validation
-└── examples/            # Problem statement and diagrams
+├── Problem Statement/   #Problem statement
+
 ```
 
 ---
@@ -172,50 +173,30 @@ For complete derivation, see [`docs/methodology.md`](docs/methodology.md)
 - ✅ **Step-by-step tutorials**
 - ✅ **Educational resource** for students
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md)
-
-Potential improvements:
-- [ ] Add more beam configurations
-- [ ] Implement ILD for moment
-- [ ] Add interactive web interface
-- [ ] Include video tutorials
-- [ ] Add more analysis software (SAP2000, ETABS)
 
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE)
+This project is licensed under the MIT License - see (LICENSE)
 
 ---
 
 ## 👤 Author
 
-**[Your Name]**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+**M.Hema Varshni **
+- GitHub: hema2389 (https://github.com/hema2389)
 - Institution: SSN College of Engineering
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Dr. P. Sangeetha** - Course Coordinator
 - **Department of Civil Engineering** - SSN College of Engineering
 - **Course:** UCE2621 - Advanced Structural Analysis
 - **Bentley Systems** - STAAD.Pro Academic License
 
----
-
-## 📧 Contact
-
-For questions or feedback:
-- Open an [issue](https://github.com/yourusername/ILD-Shear-Force-Analysis/issues)
-- Email: your.email@example.com
 
 ---
 
